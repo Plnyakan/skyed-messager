@@ -1,0 +1,14 @@
+{
+  "author": "Lester Fernandez",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn workspace @skyed-messager/server dev",
+    "client": "yarn workspace @skyed-messager/client start"
+  }
+}
